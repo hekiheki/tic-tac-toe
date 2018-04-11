@@ -91,4 +91,4 @@ someFunction(
 // return [ ]
 ```
 
-本题代码在units.js中，demo地址：<http://www.hekibun.com/demo/ticTacToe/>
+本题代码在src/units.js中，demo地址：<http://www.hekibun.com/demo/ticTacToe/>
