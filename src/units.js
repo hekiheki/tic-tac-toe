@@ -21,9 +21,9 @@ const calculateNextPos = (player,squares) => {
 	for(let i=0;i<9;i++){
 		// 判断是不是空的棋盘
 		if(newSquares[i] === 'e'){
-			// 棋盘为空时，假设下一步棋下在改位置处
+			// 棋盘为空时，假设下一步棋下在该位置处
 			temp[i] = player
-			// 判断是否下一步是否能连成一条直线，若能，则输出下一步位置
+			// 判断下一步是否能连成一条直线，若能，则输出下一步位置
 			if(calculateWinner(temp)) nextPos.push(changePos[i])
 			// 还原棋盘
 			temp[i] = 'e'
